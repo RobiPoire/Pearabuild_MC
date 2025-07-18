@@ -14,11 +14,6 @@ version_history.json
 # Plugins
 plugins/.paper-remapped/
 
-plugins/AxGraves/libs/
-plugins/AxGraves/data.json
-
-plugins/Chunky/tasks/
-
 plugins/CoreProtect/database.db
 plugins/CoreProtect/.license
 
@@ -46,13 +41,4 @@ world/*
 world/datapacks/bukkit
 !world/data/
 world/data/
-!world/data/command_storage_vanilla_refresh_config.dat
 !world/paper-world.yml
-
-# World the End
-world_the_end/
-!world_the_end/paper-world.yml
-
-# World Nether
-world_nether/*
-!world_nether/paper-world.yml
