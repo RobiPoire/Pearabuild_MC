@@ -1,0 +1,110 @@
+version: 2 # DO NOT CHANGE
+holograms:
+  South:
+    type: TEXT
+    location:
+      world: world
+      x: 8.0
+      y: 5.5
+      z: 24.0
+      yaw: 0.921875
+      pitch: 1.0499852
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - <red>South</red>
+    - <green>Pixel Art & Mini-jeux</green>
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  North:
+    type: TEXT
+    location:
+      world: world
+      x: 8.0
+      y: 5.5
+      z: -8.0
+      yaw: 179.34961
+      pitch: 90.0
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - <red>North</red>
+    - <green>Belles constructions</green>
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  East:
+    type: TEXT
+    location:
+      world: world
+      x: 23.0
+      y: 5.5
+      z: 8.0
+      yaw: -89.749146
+      pitch: -3.3000042
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - <red>East</red>
+    - <green>Petites constructions</green>
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1
+  West:
+    type: TEXT
+    location:
+      world: world
+      x: -8.0
+      y: 5.5
+      z: 8.0
+      yaw: 89.051636
+      pitch: 90.0
+    visibility_distance: -1
+    visibility: ALL
+    persistent: true
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+    translation_x: 0.0
+    translation_y: 0.0
+    translation_z: 0.0
+    shadow_radius: 0.0
+    shadow_strength: 1.0
+    text:
+    - <red>West</red>
+    - <green>Des constructions</green>
+    text_shadow: false
+    see_through: false
+    text_alignment: center
+    update_text_interval: -1

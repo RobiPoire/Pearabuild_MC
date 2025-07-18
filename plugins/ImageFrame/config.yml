@@ -1,0 +1,190 @@
+Messages:
+  Reloaded: '&eImageFrame a été rechargé !'
+  ImageMapProcessing: '&eImageMap est en cours de traitement, veuillez patienter !'
+  # Leave this empty ("") to disable action bar message
+  ImageMapProcessingActionBar: '&eImageMap &a{Name} &eest en cours de traitement{Dots}'
+  # Leave this empty ("") to disable action bar message
+  ImageMapQueuedActionBar: '&7ImageMap &a{Name} &eest actuellement en file d''attente ({Position} restant)'
+  ImageMapCreated: '&aImageMap a été créé !'
+  ImageMapRefreshed: '&aImageMap a été rafraîchi !'
+  ImageMapDeleted: '&eImageMap a été supprimé !'
+  ImageMapRenamed: '&aImageMap a été renommé !'
+  ImageMapTogglePaused: '&aBasculé la pause de la lecture de l''ImageMap !'
+  ImageMapPlaybackJumpTo: '&aPassé à la position à {Seconds} secondes !'
+  ImageMapPlayerPurge: '&ePurgé {Amount} ImageMaps appartenant à {CreatorName} ({CreatorUUID}) - [{ImageMapNames}]'
+  SetCreator: '&aCréateur de l''ImageMap avec l''id {ImageID} défini sur {CreatorName} ({CreatorUUID})'
+  InvalidOverlayMap: '&cL''overlay ne fonctionne que sur les cartes Vanilla Minecraft et sans doublons dans la sélection !'
+  ImageMapAlreadyQueued: '&cVous avez déjà un autre ImageMap en file d''attente et en traitement, veuillez patienter !'
+  UnableToLoadMap: '&cImageMap ne peut pas être chargé, il y a un problème lors de la lecture de l''image. Contactez les administrateurs du serveur pour vérifier la console du serveur pour plus d''informations.'
+  UnableToChangeImageType: '&cChanger le type d''image n''est actuellement pas supporté. Veuillez créer une nouvelle carte image à la place.'
+  UnknownError: '&cUne erreur inconnue est survenue.'
+  ImageOverMaxFileSize: '&cImageMap ne peut pas être chargé car il dépasse la taille maximale de fichier autorisée. ({Size} octets)'
+  NotAnImageMap: '&cCe n''est pas un ImageMap'
+  UploadLink: '&aOuvrez {URL} dans votre navigateur pour télécharger une image, il est valide pendant 5 minutes.'
+  UploadExpired: '&cLe lien de téléchargement de l''image a expiré, veuillez en créer un nouveau.'
+  URLImageMapInfo:
+    - '&bImageID: {ImageID}'
+    - '&aNom: {Name}'
+    - '&eTaille de la carte: {Width} x {Height}'
+    - '&6Dithering: {DitheringType}'
+    - '&dCréateur: {CreatorName} ({CreatorUUID})'
+    - '&fAccès: {Access}'
+    - '&aHeure de création: {TimeCreated}'
+    - '&bMarqueurs: {Markers}'
+    - '&eURL: {URL}'
+  NoPermission: '&cVous n''avez pas la permission de faire cela !'
+  NoConsole: '&cCette commande ne peut être exécutée que par les joueurs !'
+  PlayerNotFound: '&cCe joueur est introuvable !'
+  InvalidUsage: '&cUtilisation invalide !'
+  NotEnoughMaps: '&cVous n''avez pas {Amount} cartes !'
+  Oversize: '&cC''est trop grand ! La taille maximale pour une carte est {MaxSize}'
+  URLRestricted: '&cCette URL est restreinte et ne peut pas être utilisée pour créer des cartes images.'
+  PlayerCreationLimitReached: '&cVous ne pouvez créer que {Limit} cartes à la fois ! Supprimez-en certaines pour en créer de nouvelles'
+  DuplicateMapName: '&cVous avez déjà créé une carte image avec ce nom !'
+  MapLookup: '&bListe des cartes images par {CreatorName} ({CreatorUUID}) :'
+  ItemFrameOccupied: '&cÉchec du placement ou du retrait de certaines cartes sur l''ItemFrame sélectionné, elles sont soit détruites, remplacées, occupées ou protégées.'
+  NotEnoughSpace: '&cImpossible de placer la carte ImageMap combinée car il n''y a pas assez de place.'
+  InvalidImageMap: '&cCette carte image a probablement déjà été supprimée.'
+  GivenInvisibleFrame: '&aDonné {Amount} cadres d''objets invisibles à {Player}.'
+  AccessPermission:
+    Updated: '&aAccès mis à jour pour {PlayerName} ({PlayerUUID}), ils ont maintenant la permission {Permission}.'
+    Types:
+      NONE: AUCUN
+      GET: OBTENIR
+      MARKER: MARQUEUR
+      EDIT: MODIFIER
+      EDIT_CLONE: MODIFIER AVEC CLONE
+      ALL: TOUT
+  Selection:
+    Begin: '&bFaites un clic droit sur un Item Frame pour sélectionner les coins 1 et 2'
+    Clear: '&eQuitter le mode de sélection'
+    Corner1: '&aCoin 1 de l''Item Frame sélectionné'
+    Corner2: '&aCoin 2 de l''Item Frame sélectionné'
+    Invalid: '&cSélection invalide !'
+    Oversize: '&cSélection trop grande ! La taille maximale pour une carte est {MaxSize}'
+    Success: '&a{Width} x {Height} Item Frames sélectionnés ! &eSi l''un d''eux est supprimé/remplacé, vous devrez les sélectionner à nouveau.'
+    NoSelection: '&cVous n''avez pas encore de sélection valide.'
+    IncorrectSize: '&cLa taille de votre sélection ne correspond pas, {Width} x {Height} requis.'
+  Markers:
+    AddBegin: '&aFaites un clic droit sur un Item Frame contenant la carte "{Name}" pour placer le marqueur ! &bExécutez "/imageframe marker cancel" pour annuler le placement'
+    AddConfirm: '&aMarqueur placé !'
+    Remove: '&eMarqueur supprimé !'
+    Clear: '&eMarqueurs effacés !'
+    Cancel: '&ePlacement du marqueur annulé !'
+    DuplicateName: '&cIl y a déjà un marqueur avec ce nom !'
+    NotAMarker: '&cCe n''est pas un marqueur valide'
+    NotRenderOnFrameWarning: '&eAvertissement : Ce type de marqueur ne se rend pas sur les Item Frames !'
+    LimitReached: '&cVous ne pouvez créer que {Limit} marqueurs sur une carte !'
+  # Date format used where a time based variable is displayed
+  DateFormat: dd/MM/yyyy HH:mm:ss zzz
+  Preferences:
+    Keys:
+      VIEW_ANIMATED_MAPS: Voir les cartes animées
+    Values:
+      'TRUE': '&aActivé'
+      'FALSE': '&cDésactivé'
+      UNSET: '&7Non défini'
+    UpdateMessage: '&eLa préférence du joueur {Preference}&e a été mise à jour à {Value}&e !'
+
+Settings:
+  MapItemFormat: '&f{Name} &7({X}, {Y})'
+  # Whether empty maps are required to create image maps when not in creative
+  RequireEmptyMaps: true
+  # Max size of an image map
+  MaxSize: 100
+  # When enabled, Only websites from the list below is allowed to be shown through in-game maps
+  RestrictImageUrl:
+    Enabled: false
+    Whitelist:
+      - https://i.imgur.com
+      - http://i.imgur.com
+      - https://storage.googleapis.com
+      - http://storage.googleapis.com
+      - https://cdn.discordapp.com
+      - http://cdn.discordapp.com
+      - https://media.discordapp.net
+      - http://media.discordapp.net
+      - https://textures.minecraft.net
+      - http://textures.minecraft.net
+  # If the image is larger than the defined size, it won't be downloaded for preview
+  # (In Bytes)
+  MaxImageFileSize: 52428800
+  # If an image takes more than this time to load, it will be rejected
+  # (In Seconds)
+  MaxProcessingTime: 60
+  # How many images should be processed in parallel
+  # Updating this option requires a server restart
+  ParallelProcessingLimit: 1
+  # Max amount of image maps a player in the following groups can create
+  # Setting -1 means unlimited
+  # To add a player to a group, give the permission "imageframe.createlimit.<group>"
+  # For example "imageframe.createlimit.vip"
+  # Players with no groups will be treated as "default" unless they have "imageframe.createlimit.unlimited"
+  PlayerCreationLimit:
+    default: 10
+    vip: 15
+    moderator: 20
+  # Max amount of markers on an individual map
+  MapMarkerLimit: 20
+  CombinedMapItem:
+    Name: '&bImageMap &f- &f{Name} &7({Width} x {Height})'
+    Lore:
+      - '&aClic droit sur les Item Frames de taille {Width} x {Height} pour placer l''ImageMap'
+      - ''
+      - '&7ImageID: {ImageID}'
+      - '&7Créateur: {CreatorName} ({CreatorUUID})'
+      - '&7Heure de création: {TimeCreated}'
+  # How many map packets can be sent to a player in 1/20 of a second
+  # You can turn this down if you are facing network issues
+  # However maps might take longer to show to a player
+  # To disable the rate limit, set to -1
+  MapPacketSendingRateLimit: -1
+  # Exempt certain map ids from deletion if their ImageFrame map is deleted
+  # Values can be map ids (For example: "13") or ranges (inclusive) of map ids (For example: "10-13")
+  ExemptMapIdsFromDeletion:
+    - '-1'
+  # This option should only be useful to developers and people who knew what they are doing
+  MapRenderersContextual: false
+  # Changing this option requires a restart
+  HandleAnimatedMapsOnMainThread: false
+  SendAnimatedMapsOnMainThread: false
+  # Valid modes are "DYNAMIC" and "MANUAL_PERSISTENT"
+  # DYNAMIC: load and unload image cache depending on whether a player is viewing
+  # May use more CPU and image might appear with a slight delay
+  # MANUAL_PERSISTENT: image cache stay loaded from server start
+  # May use more memory
+  # Changing this setting requires a restart
+  CacheControlMode: MANUAL_PERSISTENT
+  # Set this to true if you have corrupted 0 size map data in the world folder (not the ImageFrame plugin folder)
+  # Set this to false if your system's file IO is slow
+  TryDeleteBlankMapFiles: false
+# ImageFrame's convenient upload system where you can upload directly through an embedded web server
+UploadService:
+  # Changing this value requires a restart
+  Enabled: true
+  # This is only used for displaying to the end user
+  DisplayURL: http://change.this.to.your.server.ip.in.the.config
+  WebServer:
+    # Address in which the webserver binds to, defaults to 0.0.0.0
+    # Use 127.0.0.1 to limit to local access
+    # Changing this value requires a restart
+    Host: 0.0.0.0
+    # Port in which the webserver is hosted, make sure it is not blocked by your firewall
+    # Changing this value requires a restart
+    Port: 8517
+# ImageFrame's built in survival friendly way of making invisible item frames
+InvisibleFrame:
+  # Survival friendly way to get invisible item frames by splashing dropped items with invisibility potions
+  # Set to -1 for unlimited
+  # Set to 0 to disable
+  MaxConversionsPerSplash: 8
+  # Should empty invisible item frames glow
+  # Existing frames are not updated until they are interacted with
+  GlowEmptyFrames: true
+
+Hooks:
+  ViaVersion:
+    # Enable this if your players below 1.13 is having network issues
+    DisableSmoothAnimationForLegacyPlayers: false
+# Enable update notifications for admins
+Updater: true

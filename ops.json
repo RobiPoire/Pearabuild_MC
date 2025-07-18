@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "11c12a8e-99c8-4eb9-9e16-b964f6974cea",
+    "name": "Zazzizou",
+    "level": 4,
+    "bypassesPlayerLimit": true
+  },
+  {
+    "uuid": "c62f7462-ac90-4c5b-8a9c-37604a92907d",
+    "name": "champilox",
+    "level": 4,
+    "bypassesPlayerLimit": true
+  },
+  {
+    "uuid": "75103760-a1c1-4338-b8ff-521b7e294533",
+    "name": "RobiPoire",
+    "level": 4,
+    "bypassesPlayerLimit": true
+  }
+]

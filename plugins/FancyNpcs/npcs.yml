@@ -1,0 +1,755 @@
+npcs:
+  3c3ec631-5a41-499f-adf4-1470971cb0a8:
+    name: RobiPouar
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: RobiPouar
+    type: PLAYER
+    location:
+      world: world
+      x: 16.53393096572256
+      y: 15.0
+      z: 3.097863749121111
+      yaw: -143.10175
+      pitch: 8.999998
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: RobiPouar
+      variant: AUTO
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: message
+          value: Je suis Dieu
+  2d2b9047-71ca-4fd6-a76c-3c0c7b10e623:
+    name: RobiPoire
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: <#10e741>RobiPoire</#10e741>
+    type: PLAYER
+    location:
+      world: world
+      x: 4.551588871152147
+      y: 4.5
+      z: -2.5919999471794446
+      yaw: -131.02258
+      pitch: 7.7864943
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
+      variant: AUTO
+      identifier: RobiPoire
+    attributes:
+      pose: sitting
+    actions:
+      ANY_CLICK:
+        '1':
+          action: message
+          value: Je suis une Poire.
+  80065a17-0a28-4db1-a268-b912858cc346:
+    name: Zazzizou
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: Zazzizou
+    type: PLAYER
+    location:
+      world: world
+      x: 10.555473726237901
+      y: 3.0
+      z: -16.646419613584392
+      yaw: 178.48462
+      pitch: 11.099977
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.3
+    visibility_distance: -1
+    skin:
+      identifier: Zazzizou
+      variant: SLIM
+      mirrorSkin: false
+    attributes:
+      pose: sitting
+  3c60a56b-1d3d-46cd-8c63-4fa9b2102e56:
+    name: Vyst_
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: Vyst_
+    type: PLAYER
+    location:
+      world: world
+      x: 12.576073755495127
+      y: 10.025290714312911
+      z: 17.420656802619995
+      yaw: -55.700226
+      pitch: 82.799934
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: Vyst_
+      variant: AUTO
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: message
+          value: C'est une question de respect!
+  e88976cc-4174-4dd7-b38a-38435b13074e:
+    name: The_Diaboliz
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: The_Diaboliz
+    type: PLAYER
+    location:
+      world: world
+      x: 5.609758346438616
+      y: 11.055585539263669
+      z: 15.568515100445675
+      yaw: -35.15088
+      pitch: 90.0
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: The_Diaboliz
+      variant: AUTO
+      mirrorSkin: false
+    attributes:
+      on_ground: 'false'
+    actions:
+      ANY_CLICK:
+        '1':
+          action: message
+          value: Je cherchais une fille facile...
+  7b7ff0eb-559f-4695-8187-2fc5c6d501c5:
+    name: 12Jemery12
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: 12Jemery12
+    type: PLAYER
+    location:
+      world: world
+      x: 29.45855266605124
+      y: 0.0
+      z: -12.437912555878123
+      yaw: -135.06787
+      pitch: -1.513561
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: 12Jemery12
+      variant: AUTO
+      mirrorSkin: false
+    attributes:
+      pose: sitting
+  a551d2a8-1644-4c5c-b559-17e0d51a00ea:
+    name: Oceane14
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: Oceane14
+    type: PLAYER
+    location:
+      world: world
+      x: 24.549899860520874
+      y: 1.0
+      z: -9.553034673572347
+      yaw: 167.05353
+      pitch: 1.499917
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: Oceane14
+      variant: AUTO
+      mirrorSkin: false
+    attributes:
+      pose: sitting
+    actions:
+      ANY_CLICK:
+        '1':
+          action: message
+          value: J'ai peur des endermans
+  3ffbc797-c634-46d8-9211-98ec74607896:
+    name: champilox
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: champilox
+    type: PLAYER
+    location:
+      world: world
+      x: 10.54123097532128
+      y: 1.0
+      z: 36.37153414199061
+      yaw: -12.347656
+      pitch: 6.599976
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: champilox
+      variant: AUTO
+      mirrorSkin: false
+    attributes:
+      pose: swimming
+    actions:
+      ANY_CLICK:
+        '1':
+          action: message
+          value: ELLE EST TROP MIGNONNEEEEEEE!!!!
+  b493038e-4e0d-4181-916f-0b017b272c07:
+    name: Sassooouuu
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: Sassooouuu
+    type: PLAYER
+    location:
+      world: world
+      x: -8.351728689822755
+      y: 2.8523094596727465
+      z: 27.52874717106249
+      yaw: -90.34863
+      pitch: 51.449978
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: Sassooouuu
+      variant: AUTO
+      mirrorSkin: false
+    attributes:
+      on_fire: 'true'
+    actions:
+      ANY_CLICK:
+        '1':
+          action: message
+          value: Caca
+  1d8e6b8f-7948-4b8b-9457-8de6f85573d7:
+    name: Kimi
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: Kimi
+    type: CAT
+    location:
+      world: world
+      x: 10.83158486888657
+      y: 0.0
+      z: 37.98279019052603
+      yaw: 173.65079
+      pitch: -37.94999
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
+    attributes:
+      variant: calico
+    actions:
+      ANY_CLICK:
+        '1':
+          action: message
+          value: Miaouuu
+  505a6654-25c5-4488-93d5-06e4ee15ec22:
+    name: Didi2607
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: Didi2607
+    type: PLAYER
+    location:
+      world: world
+      x: 4.879772000178073
+      y: 1.0
+      z: -17.284821339658045
+      yaw: 74.602905
+      pitch: -17.277798
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 0.7
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
+      identifier: Didi2607
+      variant: AUTO
+    actions:
+      ANY_CLICK:
+        '1':
+          action: message
+          value: J'ai eu 16 en maths.
+  c8c7b49c-39ba-4c1a-9056-91f373d69eee:
+    name: endercreeeps
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: endercreeeps
+    type: PLAYER
+    location:
+      world: world
+      x: 1.5009862139238308
+      y: 2.0
+      z: -16.398386950536057
+      yaw: -90.24597
+      pitch: 9.27222
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.2
+    visibility_distance: -1
+    skin:
+      identifier: endercreeeps
+      variant: AUTO
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: message
+          value: J'ai été investi d'une grande mission, donc je suis votre leader,
+            je vous dirige. Obéissez-moi tant que vous obéissez à Dieu en vous.
+  0fc8f4d4-1734-4928-8d03-8812cbf4caf9:
+    name: AlexSeulor
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: AlexSeulor
+    type: PLAYER
+    location:
+      world: world
+      x: 4.827975486200417
+      y: 1.0
+      z: -14.899341035409208
+      yaw: 113.153015
+      pitch: -14.877791
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 0.6
+    visibility_distance: -1
+    skin:
+      identifier: AlexSeulor
+      variant: AUTO
+      mirrorSkin: false
+  658bcd88-a940-4ca3-ac85-3770f2048155:
+    name: Yamat0TheBest
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: Yamat0TheBest
+    type: PLAYER
+    location:
+      world: world
+      x: -0.9907392261279077
+      y: 2.0
+      z: 25.00076330177683
+      yaw: 8.951141
+      pitch: -14.999994
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.4
+    visibility_distance: -1
+    skin:
+      identifier: Yamat0TheBest
+      variant: AUTO
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: message
+          value: Je m'appelle Kozuki Oden!
+  a520ddd2-4100-4148-a14e-f83bf4539ddb:
+    name: ILoveMyItalianGF
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: ILoveMyItalianGF
+    type: PLAYER
+    location:
+      world: world
+      x: 4.355685255265658
+      y: 1.0
+      z: -16.137800353159506
+      yaw: 97.10364
+      pitch: -18.927778
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 0.8
+    visibility_distance: -1
+    skin:
+      identifier: Lohan3007
+      variant: AUTO
+      mirrorSkin: false
+  a6da7089-ac00-4a28-91a0-34dedf9f658b:
+    name: dookiepoopooman
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: dookiepoopooman
+    type: PLAYER
+    location:
+      world: world
+      x: 17.838448971226573
+      y: 3.0
+      z: 17.23116227685814
+      yaw: -140.66003
+      pitch: 68.4001
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
+  3c726c23-01e0-4d6b-9858-c0bf50adc529:
+    name: NairodP1998
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: NairodP1998
+    type: PLAYER
+    location:
+      world: world
+      x: 15.669337198258047
+      y: 3.2080066854817235
+      z: -13.532416397410405
+      yaw: 179.89423
+      pitch: 67.50003
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: NairodP1998
+      variant: AUTO
+      mirrorSkin: false
+    attributes:
+      pose: swimming
+  c3d1ce2f-826b-40f1-a013-87c680b6ed73:
+    name: Grasfiak
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: Grasfiak
+    type: PLAYER
+    location:
+      world: world
+      x: -8.682766236264206
+      y: 2.0
+      z: 17.634219712045542
+      yaw: 121.55182
+      pitch: -0.777761
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: Grasfiak
+      variant: AUTO
+      mirrorSkin: false
+  3dcf35d3-2881-42dd-a28f-38597cdb5131:
+    name: StormHiroi
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: StormHiroi
+    type: PLAYER
+    location:
+      world: world
+      x: -5.024936291543765
+      y: 2.0
+      z: -5.739875394908384
+      yaw: 169.70142
+      pitch: -8.550026
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: StormHiroi
+      variant: AUTO
+      mirrorSkin: false
+  bbb64dae-3bad-4ad1-88c3-7388673bb1ba:
+    name: Ramseyyy_
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: Ramseyyy_
+    type: PLAYER
+    location:
+      world: world
+      x: -7.576268798546729
+      y: 1.0
+      z: -11.759963665580608
+      yaw: 127.24072
+      pitch: 1.2000446
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: Ramseyyy_
+      variant: AUTO
+      mirrorSkin: false
+    attributes:
+      pose: crouching
+  90168c81-7199-4c4c-ace7-738fb78e0fc8:
+    name: LeChatDEmma
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: LeChatDEmma
+    type: PLAYER
+    location:
+      world: world
+      x: 0.34616423644382893
+      y: 5.5
+      z: 3.488541073372762
+      yaw: 39.05139
+      pitch: 8.099957
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: AlecPts
+      variant: AUTO
+      mirrorSkin: false
+    attributes:
+      pose: sitting
+  b91a6598-8cef-47b7-b919-251ac0fd751d:
+    name: Levrainid77
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: Levrainid77
+    type: PLAYER
+    location:
+      world: world
+      x: -19.520528328995834
+      y: 2.0
+      z: 16.199869214840696
+      yaw: -77.205444
+      pitch: 33.75002
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: Levrainid77
+      variant: AUTO
+      mirrorSkin: false
+    attributes:
+      pose: sleeping
+  212068ca-4857-411b-8f72-9102999cd46b:
+    name: Shawiiz_z
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: Shawiiz_z
+    type: PLAYER
+    location:
+      world: world
+      x: 15.30147767896048
+      y: 0.5
+      z: -15.597818527134537
+      yaw: 63.200012
+      pitch: 3.9000149
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: Shawiiz_z
+      variant: AUTO
+      mirrorSkin: false
+    attributes:
+      pose: swimming
+  bda2b699-ad1e-4ae1-a43c-828474df9c51:
+    name: Dancemel
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: Dancemel
+    type: PLAYER
+    location:
+      world: world
+      x: 29.308088584948795
+      y: 1.0
+      z: -3.817341678418076
+      yaw: -58.58008
+      pitch: -4.0572863
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: Dancemel
+      variant: AUTO
+      mirrorSkin: false
+  322a1f7a-0261-47e3-9d95-613e65d43969:
+    name: ZFR_Ev12
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: ZFR_Ev12
+    type: PLAYER
+    location:
+      world: world
+      x: 30.69988154157924
+      y: 1.0
+      z: -4.503653650537671
+      yaw: 38.316895
+      pitch: 3.8912768
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: ZFR_Ev12
+      variant: AUTO
+      mirrorSkin: false
+  e4d65240-5f13-4dc0-a9ef-58af20ab3e34:
+    name: DieuGamer
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: DieuGamer
+    type: PLAYER
+    location:
+      world: world
+      x: 30.966658256934974
+      y: 1.0
+      z: -3.05057081488143
+      yaw: 112.41736
+      pitch: -1.658784
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: DieuGamer
+      variant: AUTO
+      mirrorSkin: false
