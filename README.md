@@ -51,7 +51,7 @@
 | ImageFrame            | 1.8.4          | [Modrinth](https://modrinth.com/plugin/imageframe)                    |
 | LuckPerms             | 5.5.9          | [luckperms.net](https://luckperms.net/download)                       |
 | VaultUnlocked         | 2.14.0         | [Modrinth](https://modrinth.com/plugin/vaultunlocked)                 |
-| WorldEdit             | 7.3.15         | [Modrinth](https://modrinth.com/plugin/worldedit)                     |
+| WorldEdit             | 7.3.16         | [Modrinth](https://modrinth.com/plugin/worldedit)                     |
 | WorldGuard            | 7.0.14         | [Modrinth](https://modrinth.com/plugin/worldguard)                    |
 
 ### 📦 Datapacks
