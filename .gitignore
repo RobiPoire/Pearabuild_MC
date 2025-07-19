@@ -30,6 +30,8 @@ plugins/LuckPerms/translations/
 plugins/LuckPerms/yaml-storage/*.txt
 plugins/LuckPerms/editor-keystore.json
 
+plugins/FancyNpcs/.data/
+
 plugins/spark/*
 !plugins/spark/config.json
 
