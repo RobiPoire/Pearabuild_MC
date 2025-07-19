@@ -1,0 +1,1067 @@
+name: default
+permissions:
+- essentials.warp.overwrite.*:
+    value: false
+- worldedit.scripting.execute.*:
+    value: false
+- essentials.kits.*:
+    value: false
+- essentials.spawner.*:
+    value: false
+- essentials.spawnerconvert.*:
+    value: false
+- essentials.spawnmob.*:
+    value: false
+- essentials.warps.*
+- minecraft.command.*:
+    value: false
+- coreprotect.*:
+    value: false
+- bukkit.command.tps
+- essentials.afk:
+    value: false
+- essentials.afk.auto:
+    value: false
+- essentials.afk.kickexempt:
+    value: false
+- essentials.afk.message:
+    value: false
+- essentials.afk.others:
+    value: false
+- essentials.antioch:
+    value: false
+- essentials.anvil:
+    value: false
+- essentials.back
+- essentials.back.ondeath
+- essentials.back.onteleport
+- essentials.back.others:
+    value: false
+- essentials.backup:
+    value: false
+- essentials.balance:
+    value: false
+- essentials.balance.others:
+    value: false
+- essentials.balancetop:
+    value: false
+- essentials.balancetop.exclude:
+    value: false
+- essentials.balancetop.force:
+    value: false
+- essentials.ban:
+    value: false
+- essentials.ban.exempt:
+    value: false
+- essentials.ban.notify:
+    value: false
+- essentials.ban.offline:
+    value: false
+- essentials.banip:
+    value: false
+- essentials.banip.notify:
+    value: false
+- essentials.beezooka:
+    value: false
+- essentials.bigtree:
+    value: false
+- essentials.book:
+    value: false
+- essentials.book.author:
+    value: false
+- essentials.book.others:
+    value: false
+- essentials.book.title:
+    value: false
+- essentials.bottom:
+    value: false
+- essentials.break:
+    value: false
+- essentials.break.bedrock:
+    value: false
+- essentials.broadcast:
+    value: false
+- essentials.broadcastworld:
+    value: false
+- essentials.burn:
+    value: false
+- essentials.cartographytable:
+    value: false
+- essentials.chat.color
+- essentials.chat.format
+- essentials.chat.ignoreexempt:
+    value: false
+- essentials.chat.local
+- essentials.chat.magic
+- essentials.chat.question:
+    value: false
+- essentials.chat.receive.local
+- essentials.chat.receive.question:
+    value: false
+- essentials.chat.receive.shout:
+    value: false
+- essentials.chat.rgb
+- essentials.chat.shout:
+    value: false
+- essentials.chat.spy
+- essentials.chat.spy.exempt:
+    value: false
+- essentials.chat.url
+- essentials.clearinventory:
+    value: false
+- essentials.clearinventory.all:
+    value: false
+- essentials.clearinventory.multiple:
+    value: false
+- essentials.clearinventory.others:
+    value: false
+- essentials.clearinventoryconfirmtoggle:
+    value: false
+- essentials.commandcooldowns.bypass:
+    value: false
+- essentials.compass:
+    value: false
+- essentials.condense:
+    value: false
+- essentials.createkit:
+    value: false
+- essentials.customtext:
+    value: false
+- essentials.delhome:
+    value: false
+- essentials.delhome.others:
+    value: false
+- essentials.deljail:
+    value: false
+- essentials.delkit:
+    value: false
+- essentials.delwarp:
+    value: false
+- essentials.depth:
+    value: false
+- essentials.disposal:
+    value: false
+- essentials.eco:
+    value: false
+- essentials.eco.loan:
+    value: false
+- essentials.editsign:
+    value: false
+- essentials.editsign.color:
+    value: false
+- essentials.editsign.rgb:
+    value: false
+- essentials.editsign.unlimited:
+    value: false
+- essentials.editsign.waxed.exempt:
+    value: false
+- essentials.enchant:
+    value: false
+- essentials.enchantments.allowunsafe:
+    value: false
+- essentials.enderchest:
+    value: false
+- essentials.enderchest.modify:
+    value: false
+- essentials.enderchest.others:
+    value: false
+- essentials.essentials:
+    value: false
+- essentials.exp:
+    value: false
+- essentials.exp.give:
+    value: false
+- essentials.exp.give.others:
+    value: false
+- essentials.exp.others:
+    value: false
+- essentials.exp.set:
+    value: false
+- essentials.exp.set.others:
+    value: false
+- essentials.ext:
+    value: false
+- essentials.ext.others:
+    value: false
+- essentials.feed:
+    value: false
+- essentials.feed.cooldown.bypass:
+    value: false
+- essentials.feed.others:
+    value: false
+- essentials.fireball:
+    value: false
+- essentials.fireball.arrow:
+    value: false
+- essentials.fireball.dragon:
+    value: false
+- essentials.fireball.egg:
+    value: false
+- essentials.fireball.expbottle:
+    value: false
+- essentials.fireball.fireball:
+    value: false
+- essentials.fireball.large:
+    value: false
+- essentials.fireball.lingeringpotion:
+    value: false
+- essentials.fireball.skull:
+    value: false
+- essentials.fireball.small:
+    value: false
+- essentials.fireball.snowball:
+    value: false
+- essentials.fireball.splashpotion:
+    value: false
+- essentials.fireball.trident:
+    value: false
+- essentials.firework:
+    value: false
+- essentials.firework.fire:
+    value: false
+- essentials.firework.multiple:
+    value: false
+- essentials.fly:
+    value: false
+- essentials.fly.others:
+    value: false
+- essentials.fly.safelogin:
+    value: false
+- essentials.gamemode
+- essentials.gamemode.adventure
+- essentials.gamemode.all
+- essentials.gamemode.creative
+- essentials.gamemode.others:
+    value: false
+- essentials.gamemode.spectator
+- essentials.gamemode.survival
+- essentials.gc:
+    value: false
+- essentials.getpos:
+    value: false
+- essentials.getpos.others:
+    value: false
+- essentials.give:
+    value: false
+- essentials.give.item-all:
+    value: false
+- essentials.god:
+    value: false
+- essentials.god.others:
+    value: false
+- essentials.god.pvp:
+    value: false
+- essentials.grindstone:
+    value: false
+- essentials.hat
+- essentials.hat.ignore-binding:
+    value: false
+- essentials.heal:
+    value: false
+- essentials.heal.cooldown.bypass:
+    value: false
+- essentials.heal.others:
+    value: false
+- essentials.help
+- essentials.helpop:
+    value: false
+- essentials.helpop.receive
+- essentials.home:
+    value: false
+- essentials.home.bed:
+    value: false
+- essentials.home.compass:
+    value: false
+- essentials.home.others:
+    value: false
+- essentials.ice:
+    value: false
+- essentials.ice.others:
+    value: false
+- essentials.ignore
+- essentials.info:
+    value: false
+- essentials.invsee:
+    value: false
+- essentials.invsee.equip:
+    value: false
+- essentials.invsee.modify:
+    value: false
+- essentials.invsee.preventmodify:
+    value: false
+- essentials.item:
+    value: false
+- essentials.itemdb:
+    value: false
+- essentials.itemlore
+- essentials.itemname:
+    value: false
+- essentials.itemspawn.exempt:
+    value: false
+- essentials.itemspawn.item-all:
+    value: false
+- essentials.itemspawn.meta-author:
+    value: false
+- essentials.itemspawn.meta-book:
+    value: false
+- essentials.itemspawn.meta-firework:
+    value: false
+- essentials.itemspawn.meta-head:
+    value: false
+- essentials.itemspawn.meta-lore:
+    value: false
+- essentials.itemspawn.meta-title:
+    value: false
+- essentials.jail.allow-block-damage:
+    value: false
+- essentials.jail.allow-break:
+    value: false
+- essentials.jail.allow-interact:
+    value: false
+- essentials.jail.allow-place:
+    value: false
+- essentials.jail.exempt:
+    value: false
+- essentials.jail.notify:
+    value: false
+- essentials.jails:
+    value: false
+- essentials.joinfullserver:
+    value: false
+- essentials.jump:
+    value: false
+- essentials.jump.lock:
+    value: false
+- essentials.keepinv:
+    value: false
+- essentials.keepxp:
+    value: false
+- essentials.kick:
+    value: false
+- essentials.kick.exempt:
+    value: false
+- essentials.kick.notify:
+    value: false
+- essentials.kickall:
+    value: false
+- essentials.kickall.exempt:
+    value: false
+- essentials.kill:
+    value: false
+- essentials.kill.exempt:
+    value: false
+- essentials.kill.force:
+    value: false
+- essentials.kit:
+    value: false
+- essentials.kit.exemptdelay:
+    value: false
+- essentials.kit.others:
+    value: false
+- essentials.kitreset:
+    value: false
+- essentials.kitreset.others:
+    value: false
+- essentials.kittycannon:
+    value: false
+- essentials.lightning:
+    value: false
+- essentials.lightning.others:
+    value: false
+- essentials.list
+- essentials.list.hidden:
+    value: false
+- essentials.loom:
+    value: false
+- essentials.mail:
+    value: false
+- essentials.mail.clear.others:
+    value: false
+- essentials.mail.clearall:
+    value: false
+- essentials.mail.send:
+    value: false
+- essentials.mail.sendall:
+    value: false
+- essentials.mail.sendtemp:
+    value: false
+- essentials.me:
+    value: false
+- essentials.more:
+    value: false
+- essentials.motd:
+    value: false
+- essentials.msg
+- essentials.msg.color
+- essentials.msg.format
+- essentials.msg.magic
+- essentials.msg.multiple
+- essentials.msg.rgb
+- essentials.msg.url
+- essentials.msgtoggle
+- essentials.msgtoggle.bypass:
+    value: false
+- essentials.msgtoggle.others:
+    value: false
+- essentials.mute:
+    value: false
+- essentials.mute.exempt:
+    value: false
+- essentials.mute.notify:
+    value: false
+- essentials.mute.offline:
+    value: false
+- essentials.mute.unlimited:
+    value: false
+- essentials.near:
+    value: false
+- essentials.near.exclude:
+    value: false
+- essentials.near.maxexempt:
+    value: false
+- essentials.near.others:
+    value: false
+- essentials.nick:
+    value: false
+- essentials.nick.allowunsafe:
+    value: false
+- essentials.nick.blacklist.bypass:
+    value: false
+- essentials.nick.changecolors:
+    value: false
+- essentials.nick.changecolors.bypass:
+    value: false
+- essentials.nick.color:
+    value: false
+- essentials.nick.format:
+    value: false
+- essentials.nick.hideprefix:
+    value: false
+- essentials.nick.magic:
+    value: false
+- essentials.nick.others:
+    value: false
+- essentials.nick.rgb:
+    value: false
+- essentials.nocommandcost.all:
+    value: false
+- essentials.nuke:
+    value: false
+- essentials.oversizedstacks:
+    value: false
+- essentials.pay:
+    value: false
+- essentials.pay.multiple:
+    value: false
+- essentials.pay.offline:
+    value: false
+- essentials.payconfirmtoggle:
+    value: false
+- essentials.paytoggle:
+    value: false
+- essentials.ping
+- essentials.playtime
+- essentials.playtime.others:
+    value: false
+- essentials.potion.apply:
+    value: false
+- essentials.powertool:
+    value: false
+- essentials.powertool.append:
+    value: false
+- essentials.powertooltoggle:
+    value: false
+- essentials.ptime:
+    value: false
+- essentials.ptime.others:
+    value: false
+- essentials.pvpdelay.exempt:
+    value: false
+- essentials.pweather:
+    value: false
+- essentials.pweather.others:
+    value: false
+- essentials.realname
+- essentials.recipe
+- essentials.remove:
+    value: false
+- essentials.renamehome:
+    value: false
+- essentials.renamehome.others:
+    value: false
+- essentials.repair:
+    value: false
+- essentials.repair.all:
+    value: false
+- essentials.repair.armor:
+    value: false
+- essentials.repair.enchanted:
+    value: false
+- essentials.rest:
+    value: false
+- essentials.rest.others:
+    value: false
+- essentials.rtoggle
+- essentials.rules:
+    value: false
+- essentials.seen:
+    value: false
+- essentials.seen.alts:
+    value: false
+- essentials.seen.banreason:
+    value: false
+- essentials.seen.extra:
+    value: false
+- essentials.seen.ip:
+    value: false
+- essentials.seen.ipsearch:
+    value: false
+- essentials.seen.location:
+    value: false
+- essentials.seen.uuid:
+    value: false
+- essentials.seen.whitelist:
+    value: false
+- essentials.sell:
+    value: false
+- essentials.sell.bulk:
+    value: false
+- essentials.sell.hand:
+    value: false
+- essentials.sethome:
+    value: false
+- essentials.sethome.bed:
+    value: false
+- essentials.sethome.multiple:
+    value: false
+- essentials.sethome.multiple.unlimited:
+    value: false
+- essentials.sethome.others:
+    value: false
+- essentials.setjail:
+    value: false
+- essentials.settpr:
+    value: false
+- essentials.setwarp:
+    value: false
+- essentials.setworth:
+    value: false
+- essentials.showkit:
+    value: false
+- essentials.signs.break.balance:
+    value: false
+- essentials.signs.break.buy:
+    value: false
+- essentials.signs.break.disposal:
+    value: false
+- essentials.signs.break.enchant:
+    value: false
+- essentials.signs.break.free:
+    value: false
+- essentials.signs.break.gamemode:
+    value: false
+- essentials.signs.break.heal:
+    value: false
+- essentials.signs.break.info:
+    value: false
+- essentials.signs.break.kit:
+    value: false
+- essentials.signs.break.mail:
+    value: false
+- essentials.signs.break.protection:
+    value: false
+- essentials.signs.break.repair:
+    value: false
+- essentials.signs.break.sell:
+    value: false
+- essentials.signs.break.spawnmob:
+    value: false
+- essentials.signs.break.time:
+    value: false
+- essentials.signs.break.trade:
+    value: false
+- essentials.signs.break.warp:
+    value: false
+- essentials.signs.break.weather:
+    value: false
+- essentials.signs.color:
+    value: false
+- essentials.signs.create.balance:
+    value: false
+- essentials.signs.create.buy:
+    value: false
+- essentials.signs.create.disposal:
+    value: false
+- essentials.signs.create.enchant:
+    value: false
+- essentials.signs.create.free:
+    value: false
+- essentials.signs.create.gamemode:
+    value: false
+- essentials.signs.create.heal:
+    value: false
+- essentials.signs.create.info:
+    value: false
+- essentials.signs.create.kit:
+    value: false
+- essentials.signs.create.mail:
+    value: false
+- essentials.signs.create.protection:
+    value: false
+- essentials.signs.create.repair:
+    value: false
+- essentials.signs.create.sell:
+    value: false
+- essentials.signs.create.spawnmob:
+    value: false
+- essentials.signs.create.time:
+    value: false
+- essentials.signs.create.trade:
+    value: false
+- essentials.signs.create.warp:
+    value: false
+- essentials.signs.create.weather:
+    value: false
+- essentials.signs.enchant.allowunsafe:
+    value: false
+- essentials.signs.format:
+    value: false
+- essentials.signs.magic:
+    value: false
+- essentials.signs.protection.override:
+    value: false
+- essentials.signs.rgb:
+    value: false
+- essentials.signs.trade.override:
+    value: false
+- essentials.signs.trade.override.collect:
+    value: false
+- essentials.signs.use.balance:
+    value: false
+- essentials.signs.use.buy:
+    value: false
+- essentials.signs.use.disposal:
+    value: false
+- essentials.signs.use.enchant:
+    value: false
+- essentials.signs.use.free:
+    value: false
+- essentials.signs.use.gamemode:
+    value: false
+- essentials.signs.use.heal:
+    value: false
+- essentials.signs.use.info:
+    value: false
+- essentials.signs.use.kit:
+    value: false
+- essentials.signs.use.mail:
+    value: false
+- essentials.signs.use.protection:
+    value: false
+- essentials.signs.use.repair:
+    value: false
+- essentials.signs.use.sell:
+    value: false
+- essentials.signs.use.spawnmob:
+    value: false
+- essentials.signs.use.time:
+    value: false
+- essentials.signs.use.trade:
+    value: false
+- essentials.signs.use.warp:
+    value: false
+- essentials.signs.use.weather:
+    value: false
+- essentials.silentjoin:
+    value: false
+- essentials.silentjoin.vanish:
+    value: false
+- essentials.silentquit:
+    value: false
+- essentials.skull:
+    value: false
+- essentials.skull.modify:
+    value: false
+- essentials.skull.others:
+    value: false
+- essentials.skull.spawn:
+    value: false
+- essentials.sleepingignored:
+    value: false
+- essentials.smithingtable:
+    value: false
+- essentials.socialspy:
+    value: false
+- essentials.socialspy.others:
+    value: false
+- essentials.spawner:
+    value: false
+- essentials.spawner.delay:
+    value: false
+- essentials.spawnmob:
+    value: false
+- essentials.spawnmob.stack:
+    value: false
+- essentials.speed:
+    value: false
+- essentials.speed.bypass:
+    value: false
+- essentials.speed.fly:
+    value: false
+- essentials.speed.others:
+    value: false
+- essentials.speed.walk:
+    value: false
+- essentials.stonecutter:
+    value: false
+- essentials.sudo:
+    value: false
+- essentials.sudo.exempt:
+    value: false
+- essentials.sudo.multiple:
+    value: false
+- essentials.suicide:
+    value: false
+- essentials.teleport.cooldown.bypass.back:
+    value: false
+- essentials.teleport.cooldown.bypass.tpa:
+    value: false
+- essentials.teleport.timer.bypass:
+    value: false
+- essentials.teleport.timer.move:
+    value: false
+- essentials.tempban:
+    value: false
+- essentials.tempban.exempt:
+    value: false
+- essentials.tempban.offline:
+    value: false
+- essentials.tempban.unlimited:
+    value: false
+- essentials.tempbanip:
+    value: false
+- essentials.thunder:
+    value: false
+- essentials.time:
+    value: false
+- essentials.time.set:
+    value: false
+- essentials.time.world.all:
+    value: false
+- essentials.togglejail:
+    value: false
+- essentials.togglejail.offline:
+    value: false
+- essentials.toggleshout:
+    value: false
+- essentials.toggleshout.others:
+    value: false
+- essentials.top:
+    value: false
+- essentials.tp
+- essentials.tp.others:
+    value: false
+- essentials.tp.position
+- essentials.tpa:
+    value: false
+- essentials.tpaall:
+    value: false
+- essentials.tpacancel:
+    value: false
+- essentials.tpaccept:
+    value: false
+- essentials.tpahere:
+    value: false
+- essentials.tpall:
+    value: false
+- essentials.tpauto:
+    value: false
+- essentials.tpauto.others:
+    value: false
+- essentials.tpdeny:
+    value: false
+- essentials.tphere:
+    value: false
+- essentials.tpo:
+    value: false
+- essentials.tpoffline:
+    value: false
+- essentials.tpohere:
+    value: false
+- essentials.tppos:
+    value: false
+- essentials.tpr:
+    value: false
+- essentials.tptoggle:
+    value: false
+- essentials.tptoggle.others:
+    value: false
+- essentials.tree:
+    value: false
+- essentials.unban:
+    value: false
+- essentials.unbanip:
+    value: false
+- essentials.unlimited:
+    value: false
+- essentials.unlimited.item-all:
+    value: false
+- essentials.unlimited.item-bucket:
+    value: false
+- essentials.unlimited.others:
+    value: false
+- essentials.updatecheck:
+    value: false
+- essentials.vanish:
+    value: false
+- essentials.vanish.effect:
+    value: false
+- essentials.vanish.interact:
+    value: false
+- essentials.vanish.others:
+    value: false
+- essentials.vanish.pvp:
+    value: false
+- essentials.vanish.see:
+    value: false
+- essentials.version:
+    value: false
+- essentials.warp:
+    value: false
+- essentials.warp.list:
+    value: false
+- essentials.warp.otherplayers:
+    value: false
+- essentials.warp.others:
+    value: false
+- essentials.warpinfo:
+    value: false
+- essentials.weather:
+    value: false
+- essentials.whois:
+    value: false
+- essentials.whois.ip:
+    value: false
+- essentials.workbench:
+    value: false
+- essentials.world:
+    value: false
+- essentials.worth:
+    value: false
+- fancyholograms.admin:
+    value: false
+- fancynpcs.admin:
+    value: false
+- fawe.admin:
+    value: false
+- fawe.bypass:
+    value: false
+- imageframe.adminbypass:
+    value: false
+- imageframe.admindelete:
+    value: false
+- imageframe.adminmigrate:
+    value: false
+- imageframe.adminsetcreator:
+    value: false
+- imageframe.clone
+- imageframe.create
+- imageframe.create.animated
+- imageframe.create.others:
+    value: false
+- imageframe.delete
+- imageframe.get
+- imageframe.giveinvisibleframe:
+    value: false
+- imageframe.info
+- imageframe.list
+- imageframe.list.others:
+    value: false
+- imageframe.marker
+- imageframe.marker.unlimited
+- imageframe.overlay
+- imageframe.playback
+- imageframe.preference
+- imageframe.preference.others:
+    value: false
+- imageframe.purge:
+    value: false
+- imageframe.purge.all:
+    value: false
+- imageframe.refresh
+- imageframe.rename
+- imageframe.select
+- imageframe.setaccess
+- imageframe.update:
+    value: false
+- minecraft.command.trigger
+- spark.tps
+- weight.1
+- worldedit.analysis.count
+- worldedit.analysis.distr
+- worldedit.anyblock:
+    value: false
+- worldedit.biome.info
+- worldedit.biome.list
+- worldedit.biome.set
+- worldedit.brush.apply
+- worldedit.brush.biome
+- worldedit.brush.butcher
+- worldedit.brush.clipboard
+- worldedit.brush.cylinder
+- worldedit.brush.deform
+- worldedit.brush.ex
+- worldedit.brush.feature
+- worldedit.brush.forest
+- worldedit.brush.gravity
+- worldedit.brush.heightmap
+- worldedit.brush.item
+- worldedit.brush.lower
+- worldedit.brush.morph
+- worldedit.brush.options.mask
+- worldedit.brush.options.material
+- worldedit.brush.options.range
+- worldedit.brush.options.size
+- worldedit.brush.options.tracemask
+- worldedit.brush.paint
+- worldedit.brush.raise
+- worldedit.brush.set
+- worldedit.brush.smooth
+- worldedit.brush.snow
+- worldedit.brush.snowsmooth
+- worldedit.brush.sphere
+- worldedit.brush.splatter
+- worldedit.butcher
+- worldedit.calc
+- worldedit.chunkinfo
+- worldedit.clipboard.clear
+- worldedit.clipboard.copy
+- worldedit.clipboard.cut
+- worldedit.clipboard.flip
+- worldedit.clipboard.load
+- worldedit.clipboard.paste
+- worldedit.clipboard.rotate
+- worldedit.clipboard.save
+- worldedit.clipboard.share
+- worldedit.cui
+- worldedit.delchunks
+- worldedit.drain
+- worldedit.drawsel
+- worldedit.extinguish
+- worldedit.fast
+- worldedit.fill
+- worldedit.fill.recursive
+- worldedit.fixlava
+- worldedit.fixwater
+- worldedit.generation.cone
+- worldedit.generation.cylinder
+- worldedit.generation.feature
+- worldedit.generation.forest
+- worldedit.generation.pumpkins
+- worldedit.generation.pyramid
+- worldedit.generation.shape
+- worldedit.generation.shape.biome
+- worldedit.generation.sphere
+- worldedit.generation.structure
+- worldedit.global-mask
+- worldedit.green
+- worldedit.help
+- worldedit.history.clear
+- worldedit.history.redo
+- worldedit.history.redo.self
+- worldedit.history.undo
+- worldedit.history.undo.self
+- worldedit.inventory.unrestricted:
+    value: false
+- worldedit.limit
+- worldedit.limit.unrestricted:
+    value: false
+- worldedit.listchunks
+- worldedit.navigation.ascend
+- worldedit.navigation.ceiling
+- worldedit.navigation.descend
+- worldedit.navigation.jumpto.command
+- worldedit.navigation.thru.command
+- worldedit.navigation.unstuck
+- worldedit.navigation.up
+- worldedit.override.bedrock:
+    value: false
+- worldedit.override.data-cycler:
+    value: false
+- worldedit.perf
+- worldedit.placement
+- worldedit.regen
+- worldedit.region.center
+- worldedit.region.curve
+- worldedit.region.deform
+- worldedit.region.faces
+- worldedit.region.flora
+- worldedit.region.forest
+- worldedit.region.hollow
+- worldedit.region.line
+- worldedit.region.move
+- worldedit.region.naturalize
+- worldedit.region.overlay
+- worldedit.region.replace
+- worldedit.region.set
+- worldedit.region.smooth
+- worldedit.region.snowsmooth
+- worldedit.region.stack
+- worldedit.region.walls
+- worldedit.reload
+- worldedit.remove
+- worldedit.removeabove
+- worldedit.removebelow
+- worldedit.removenear
+- worldedit.reorder
+- worldedit.replacenear
+- worldedit.report
+- worldedit.report.pastebin:
+    value: false
+- worldedit.schematic.delete
+- worldedit.schematic.formats
+- worldedit.schematic.list
+- worldedit.schematic.save
+- worldedit.schematic.share
+- worldedit.searchitem
+- worldedit.selection.chunk
+- worldedit.selection.contract
+- worldedit.selection.expand
+- worldedit.selection.hpos
+- worldedit.selection.inset
+- worldedit.selection.outset
+- worldedit.selection.pos
+- worldedit.selection.shift
+- worldedit.selection.size
+- worldedit.selection.trim
+- worldedit.setnbt:
+    value: false
+- worldedit.setwand
+- worldedit.snapshots.list
+- worldedit.snapshots.restore
+- worldedit.snow
+- worldedit.superpickaxe
+- worldedit.superpickaxe.area
+- worldedit.superpickaxe.recursive
+- worldedit.thaw
+- worldedit.timeout
+- worldedit.timeout.unrestricted:
+    value: false
+- worldedit.tool.data-cycler
+- worldedit.tool.deltree
+- worldedit.tool.farwand
+- worldedit.tool.flood-fill
+- worldedit.tool.info
+- worldedit.tool.lrbuild
+- worldedit.tool.replacer
+- worldedit.tool.stack
+- worldedit.tool.tree
+- worldedit.trace
+- worldedit.tz
+- worldedit.update
+- worldedit.version
+- worldedit.wand
+- worldedit.wand.toggle
+- worldedit.watchdog
+- worldedit.world
+- worldedit.worldedit
