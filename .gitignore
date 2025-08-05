@@ -42,5 +42,7 @@ world/*
 !world/datapacks/
 world/datapacks/bukkit
 !world/data/
-world/data/
+world/data/*
+!world/data/command_storage_vanilla_refresh_config.dat
 !world/paper-world.yml
+plugins/FancyNpcs/skins/*

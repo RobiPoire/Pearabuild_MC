@@ -2,7 +2,7 @@ npcs:
   3c3ec631-5a41-499f-adf4-1470971cb0a8:
     name: RobiPouar
     creator: 75103760-a1c1-4338-b8ff-521b7e294533
-    displayName: RobiPouar
+    displayName: '&6RobiPouar'
     type: PLAYER
     location:
       world: world
@@ -30,6 +30,9 @@ npcs:
         '1':
           action: message
           value: Je suis Dieu
+        '2':
+          action: message
+          value: '&6RobiPoire&r: Je suis dieu'
   2d2b9047-71ca-4fd6-a76c-3c0c7b10e623:
     name: RobiPoire
     creator: 75103760-a1c1-4338-b8ff-521b7e294533
@@ -62,7 +65,7 @@ npcs:
       ANY_CLICK:
         '1':
           action: message
-          value: Je suis une Poire.
+          value: '&aRobiPoire&r: Je suis une Poire magik'
   80065a17-0a28-4db1-a268-b912858cc346:
     name: Zazzizou
     creator: 75103760-a1c1-4338-b8ff-521b7e294533
@@ -94,7 +97,7 @@ npcs:
   3c60a56b-1d3d-46cd-8c63-4fa9b2102e56:
     name: Vyst_
     creator: 75103760-a1c1-4338-b8ff-521b7e294533
-    displayName: Vyst_
+    displayName: '&eVyst_'
     type: PLAYER
     location:
       world: world
@@ -121,11 +124,11 @@ npcs:
       ANY_CLICK:
         '1':
           action: message
-          value: C'est une question de respect!
+          value: '&eVyst_&r: C''est une question de respect!'
   e88976cc-4174-4dd7-b38a-38435b13074e:
     name: The_Diaboliz
     creator: 75103760-a1c1-4338-b8ff-521b7e294533
-    displayName: The_Diaboliz
+    displayName: '&5The_Diaboliz'
     type: PLAYER
     location:
       world: world
@@ -151,10 +154,20 @@ npcs:
     attributes:
       on_ground: 'false'
     actions:
-      ANY_CLICK:
+      RIGHT_CLICK:
         '1':
           action: message
-          value: Je cherchais une fille facile...
+          value: '&5The_Diaboliz&r: Je cherchais une fille facile...'
+      LEFT_CLICK:
+        '1':
+          action: message
+          value: '&5The_Diaboliz&r: Bon franchement tout le monde est d''accord sur
+            le fait que le serveur serait mieux sans vous, j''accepte de prendre les
+            décisions nécessaires quitte à passer pour le méchant.'
+        '2':
+          action: message
+          value: C'est tout, point final, les gens qui apportent du positif tant mieux
+            les autres aucun intérêt, ça a toujours été comme ça et ça le restera
   7b7ff0eb-559f-4695-8187-2fc5c6d501c5:
     name: 12Jemery12
     creator: 75103760-a1c1-4338-b8ff-521b7e294533
@@ -186,7 +199,7 @@ npcs:
   a551d2a8-1644-4c5c-b559-17e0d51a00ea:
     name: Oceane14
     creator: 75103760-a1c1-4338-b8ff-521b7e294533
-    displayName: Oceane14
+    displayName: '&6Oceane14'
     type: PLAYER
     location:
       world: world
@@ -215,11 +228,11 @@ npcs:
       ANY_CLICK:
         '1':
           action: message
-          value: J'ai peur des endermans
+          value: '&6Oceane14&r: J''ai peur des endermans!'
   3ffbc797-c634-46d8-9211-98ec74607896:
     name: champilox
     creator: 75103760-a1c1-4338-b8ff-521b7e294533
-    displayName: champilox
+    displayName: '&bchampilox'
     type: PLAYER
     location:
       world: world
@@ -248,11 +261,11 @@ npcs:
       ANY_CLICK:
         '1':
           action: message
-          value: ELLE EST TROP MIGNONNEEEEEEE!!!!
+          value: '&bchampilox&r: ELLE EST TROP MIGNONNEEEEEEEE!!!!'
   b493038e-4e0d-4181-916f-0b017b272c07:
     name: Sassooouuu
     creator: 75103760-a1c1-4338-b8ff-521b7e294533
-    displayName: Sassooouuu
+    displayName: '&aSassooouuu'
     type: PLAYER
     location:
       world: world
@@ -281,11 +294,11 @@ npcs:
       ANY_CLICK:
         '1':
           action: message
-          value: Caca
+          value: '&aSassooouuu&r: Caca'
   1d8e6b8f-7948-4b8b-9457-8de6f85573d7:
     name: Kimi
     creator: 75103760-a1c1-4338-b8ff-521b7e294533
-    displayName: Kimi
+    displayName: '&6Kimi'
     type: CAT
     location:
       world: world
@@ -308,11 +321,38 @@ npcs:
       mirrorSkin: false
     attributes:
       variant: calico
+    equipment:
+      OFFHAND:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4440
+        id: minecraft:cod
+        count: 1
+        schema_version: 1
+      MAINHAND:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4440
+        id: minecraft:cod
+        count: 1
+        schema_version: 1
+      HEAD:
+        ==: org.bukkit.inventory.ItemStack
+        DataVersion: 4440
+        id: minecraft:cod
+        count: 1
+        schema_version: 1
     actions:
+      RIGHT_CLICK:
+        '1':
+          action: play_sound
+          value: minecraft:entity.cat.ambiant
       ANY_CLICK:
         '1':
           action: message
-          value: Miaouuu
+          value: '&6Kimi&r: Miaouuu'
+      LEFT_CLICK:
+        '1':
+          action: play_sound
+          value: minecraft:entity.cat.hurt
   505a6654-25c5-4488-93d5-06e4ee15ec22:
     name: Didi2607
     creator: 75103760-a1c1-4338-b8ff-521b7e294533
@@ -347,7 +387,7 @@ npcs:
   c8c7b49c-39ba-4c1a-9056-91f373d69eee:
     name: endercreeeps
     creator: 75103760-a1c1-4338-b8ff-521b7e294533
-    displayName: endercreeeps
+    displayName: '&cendercreeeps'
     type: PLAYER
     location:
       world: world
@@ -374,8 +414,9 @@ npcs:
       ANY_CLICK:
         '1':
           action: message
-          value: J'ai été investi d'une grande mission, donc je suis votre leader,
-            je vous dirige. Obéissez-moi tant que vous obéissez à Dieu en vous.
+          value: '&cendercreeeps&r: J''ai été investi d''une grande mission, donc
+            je suis votre leader, je vous dirige. Obéissez-moi tant que vous obéissez
+            à Dieu en vous.'
   0fc8f4d4-1734-4928-8d03-8812cbf4caf9:
     name: AlexSeulor
     creator: 75103760-a1c1-4338-b8ff-521b7e294533
@@ -405,7 +446,7 @@ npcs:
   658bcd88-a940-4ca3-ac85-3770f2048155:
     name: Yamat0TheBest
     creator: 75103760-a1c1-4338-b8ff-521b7e294533
-    displayName: Yamat0TheBest
+    displayName: '&dYamat0TheBest'
     type: PLAYER
     location:
       world: world
@@ -432,7 +473,7 @@ npcs:
       ANY_CLICK:
         '1':
           action: message
-          value: Je m'appelle Kozuki Oden!
+          value: '&dYamat0TheBest&r: Je m''appelle Kozuki Oden!'
   a520ddd2-4100-4148-a14e-f83bf4539ddb:
     name: ILoveMyItalianGF
     creator: 75103760-a1c1-4338-b8ff-521b7e294533
@@ -704,7 +745,7 @@ npcs:
   322a1f7a-0261-47e3-9d95-613e65d43969:
     name: ZFR_Ev12
     creator: 75103760-a1c1-4338-b8ff-521b7e294533
-    displayName: ZFR_Ev12
+    displayName: '&3ZFR_Ev12'
     type: PLAYER
     location:
       world: world
@@ -727,6 +768,11 @@ npcs:
       identifier: ZFR_Ev12
       variant: AUTO
       mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: message
+          value: '&3ZFR_Ev12&r: ROBIN ET ALYCIA SONT AMOUREUX'
   e4d65240-5f13-4dc0-a9ef-58af20ab3e34:
     name: DieuGamer
     creator: 75103760-a1c1-4338-b8ff-521b7e294533
@@ -753,3 +799,236 @@ npcs:
       identifier: DieuGamer
       variant: AUTO
       mirrorSkin: false
+  026f57db-1936-431e-9dcb-9344dd84b9d6:
+    name: Ew1lan_
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: '&4Ew1lan_'
+    type: PLAYER
+    location:
+      world: world
+      x: -5.509752783425621
+      y: 1.0
+      z: 28.75000839880561
+      yaw: 110.54656
+      pitch: -21.435734
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 0.8
+    visibility_distance: -1
+    skin:
+      identifier: Ew1lan_
+      variant: AUTO
+      mirrorSkin: false
+    attributes:
+      pose: crouching
+    actions:
+      ANY_CLICK:
+        '1':
+          action: message
+          value: '&4Ew1lan_&r: J''aime les femmes mais pas elle'
+  0fc31af8-00ff-48e1-9941-df03eb13ab73:
+    name: BiscotteC
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: '&eBiscotteC'
+    type: PLAYER
+    location:
+      world: world
+      x: -7.520730510374383
+      y: 1.0
+      z: 30.146293488813033
+      yaw: -122.46582
+      pitch: 24.4501
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: BiscotteC
+      variant: AUTO
+      mirrorSkin: false
+    actions:
+      ANY_CLICK:
+        '1':
+          action: message
+          value: '&eBiscotteC&r: Qu''est-ce que tu fous frérot ?'
+  33e802b6-215b-4105-8c57-edef4a49bef3:
+    name: CHRYDO
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: CHRYDO
+    type: PLAYER
+    location:
+      world: world
+      x: 3.7706337032740893
+      y: 4.5
+      z: -1.8439909787081366
+      yaw: -133.42285
+      pitch: 13.200297
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: CHRYDO
+      variant: AUTO
+      mirrorSkin: false
+    attributes:
+      pose: sitting
+  4cd4a93b-2ec9-43c5-9dcd-ddf447ada1cc:
+    name: Greg
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: '&6Greg'
+    type: PLAYER
+    location:
+      world: world
+      x: 282.6389609104411
+      y: 1.5625
+      z: 81.1556900597598
+      yaw: 64.286865
+      pitch: 59.849945
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: pnj.png
+      variant: SLIM
+      mirrorSkin: false
+    attributes:
+      pose: sleeping
+    actions:
+      ANY_CLICK:
+        '1':
+          action: message
+          value: '&6Greg&r: Salut c''est Greg'
+  d01b9fcf-60cd-4a63-8496-cd18c9fe3d25:
+    name: Steve
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: Steve
+    type: PLAYER
+    location:
+      world: world
+      x: 282.4261924334706
+      y: 1.5625
+      z: 81.59805975238393
+      yaw: 29.937265
+      pitch: 82.80004
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: steveold.png
+      variant: AUTO
+      mirrorSkin: false
+    attributes:
+      pose: sitting
+  72bbf9f9-f7d3-422e-90bb-84588ca0fc2b:
+    name: Rock
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: Rock
+    type: PLAYER
+    location:
+      world: world
+      x: 281.4202447311715
+      y: 6.0
+      z: 131.64823174594088
+      yaw: 165.26147
+      pitch: 3.449977
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.4
+    visibility_distance: -1
+    skin:
+      mirrorSkin: false
+      identifier: rock.png
+      variant: AUTO
+  47c6283e-1b64-4ddf-937b-9477538cc92e:
+    name: Wood
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: Wood
+    type: PLAYER
+    location:
+      world: world
+      x: 278.5861815230008
+      y: 6.0
+      z: 131.69999998807907
+      yaw: -166.83789
+      pitch: 3.7500138
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.4
+    visibility_distance: -1
+    skin:
+      identifier: wood.png
+      variant: SLIM
+      mirrorSkin: false
+  1dad30d1-98f7-40f1-b737-9628ca85060b:
+    name: Kafka
+    creator: 75103760-a1c1-4338-b8ff-521b7e294533
+    displayName: Kafka
+    type: PLAYER
+    location:
+      world: world
+      x: 286.95166631888515
+      y: 10.978300951554916
+      z: 128.5766276081023
+      yaw: 48.873657
+      pitch: 18.702509
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: false
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.0
+    visibility_distance: -1
+    skin:
+      identifier: kafka.png
+      variant: SLIM
+      mirrorSkin: false
+    attributes:
+      pose: swimming

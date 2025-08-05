@@ -1,4 +1,4 @@
-# 🎮 Minecraft Pearadise V2
+# 🎮 Minecraft Pearabuild
 
 ## 📜 Liste des commandes disponibles
 
@@ -33,23 +33,20 @@
 
 | Plateforme | Version   | Lien                                             |
 | ---------- | --------- | ------------------------------------------------ |
-| PaperMC    | 1.21.8-4  | [papermc.io](https://papermc.io/downloads/paper) |
+| PaperMC    | 1.21.8-25  | [papermc.io](https://papermc.io/downloads/paper) |
 
 ### 🔌 Plugins
 
 | Plugin                | Version        | Lien                                                                  |
 | --------------------- | -------------- | --------------------------------------------------------------------- |
-| AxGraves              | 1.22.3         | [Modrinth](https://modrinth.com/plugin/axgraves)                      |
-| Chunky                | 1.4.40         | [Modrinth](https://modrinth.com/plugin/chunky)                        |
 | CoreProtect           | 22.4           | [GitHub](https://github.com/PlayPro/CoreProtect)                      |
-| EssentialsX           | 2.21.2-dev+31  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
-| EssentialsXChat       | 2.21.2-dev+31  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
-| EssentialsXDiscord    | 2.21.2-dev+31  | [essentialsx.net](https://essentialsx.net/downloads.html)             |
+| EssentialsX           | 2.21.2         | [essentialsx.net](https://essentialsx.net/downloads.html)             |
+| EssentialsXChat       | 2.21.2         | [essentialsx.net](https://essentialsx.net/downloads.html)             |
 | FancyHolograms        | 2.7.0          | [Modrinth](https://modrinth.com/plugin/fancyholograms)                |
 | FancyNpcs             | 2.7.0          | [Modrinth](https://modrinth.com/plugin/fancynpcs)                     |
-| ImageFrame            | 1.8.4          | [Modrinth](https://modrinth.com/plugin/imageframe)                    |
-| LuckPerms             | 5.5.9          | [luckperms.net](https://luckperms.net/download)                       |
-| VaultUnlocked         | 2.14.0         | [Modrinth](https://modrinth.com/plugin/vaultunlocked)                 |
+| ImageFrame            | 1.8.5          | [Modrinth](https://modrinth.com/plugin/imageframe)                    |
+| LuckPerms             | 5.5.10         | [luckperms.net](https://luckperms.net/download)                       |
+| VaultUnlocked         | 2.15.1         | [Modrinth](https://modrinth.com/plugin/vaultunlocked)                 |
 | WorldEdit             | 7.3.16         | [Modrinth](https://modrinth.com/plugin/worldedit)                     |
 | WorldGuard            | 7.0.14         | [Modrinth](https://modrinth.com/plugin/worldguard)                    |
 
